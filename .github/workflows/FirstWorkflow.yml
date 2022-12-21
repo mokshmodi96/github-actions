@@ -13,7 +13,7 @@ jobs:
     steps:
      - uses: actions/setup-node@v3
        with:
-          node-version: '18'
+          node-version: 18
   install:
     name: install dependencies
     runs-on: ubuntu-latest
